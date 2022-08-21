@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(theater.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo img{
+    size : 100%;
+    width : 150px;
+    margin-left : 45%;
+    
+}
+.banner{
+    border : 2px solid #fff;
+    border-radius: 10px;
+    margin : 0px 40%;
+}
+.middle h3{
+    text-align: center;
+}
+.middle{
+    padding: 5px 20px;
+    text-align: center;
+    color: #fff;
+    
+}
+.middle input{
+    opacity: 0.4;
+    margin: 2px 0px ;
+}
+.middle a{
+    color :#f44336;
+    margin-left: 30%;;
+    text-decoration: none;
+
+}
+.middle a:hover{
+    color :#7EC8E3;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    /*position: relative;*/
+    cursor:pointer;
+   
+}
+.hero-btn:hover{
+    border:1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.button{
+    margin : 5px 30%;
+}
+.singup{
+    color :#fff;
+    padding :10px 30px;
+    font-size: small;
+}
+.singup a{
+    text-decoration: none;
+    color : #f44336;
+}
+.singup a:hover{
+    color : #7EC8E3;
+}
+@media only screen and (max-width:700px){
+    
+    .banner{
+    border : 2px solid #fff;
+    border-radius: 10px;
+    margin : 0px 10%;
+}
+    .logo img{
+    size : 100%;
+    width : 150px;
+    margin-left : 32%;
+    text-align: center;
+    
+}
+    
+    
+    
+    
+}
